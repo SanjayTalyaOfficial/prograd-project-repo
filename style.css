@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800i&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    background: lightgrey;
+
+}
+.logo-text{
+    font-size: 27px;
+    color: red;
+    font-weight: 700;
+}
+
+.nav-link{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 200;
+    cursor: pointer;
+    color: black;
+}
+.nav-link:hover{
+    color: royalblue;
+    cursor: pointer;
+}
+header div p{
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: center;
+    
+}
+header div{
+    height: max-content;
+    padding: 100px;
+}
+
+
+#home{
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li{
+    margin: 0 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-button, .button{
+    text-decoration: none;
+    cursor: pointer;
+    background: red;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5%;
+
+}
+
+.nav-button:hover{
+    color: yellow;
+    background: lightcoral;
+}
+
+section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 75%;
+    background-color: white;
+    margin: 100px;
+    
+}
+#bio{
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+article img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+    
+}
+.about_me{
+    text-align: center;
+}
+.about_me_button{
+    text-align: center;
+}
+#bio article *{
+    margin:20px;
+}
+.break{
+    display: block;
+}
+.portfolio_article{
+    display: flex;
+    background: whitesmoke;
+    
+}
+.portfolio_article_box::after{
+    flex: 33.33%;
+    padding:10px;
+    margin: 10px;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+.portfolio_title{
+    text-align: center;
+    background: whitesmoke;
+    
+
+}
+.skills{
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+
+}
+.skills_tech, .skills_lang{
+    flex: 33.33%;
+    padding:10px;
+    margin: 0 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.skills_title{
+    text-align: center;
+    list-style-type: none;
+
+}
